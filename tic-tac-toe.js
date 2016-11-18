@@ -11,3 +11,14 @@ var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
 
 }
+
+function nextturn(){
+   var circle =document.createElementNS(namespace,"circle")
+   circle.setAttribute("cx",50 )
+    circle.setAttribute("cy", 50 )
+     circle.setAttribute("r",45 )
+
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+
+}
