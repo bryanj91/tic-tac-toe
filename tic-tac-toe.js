@@ -14,9 +14,53 @@ canvas.appendChild(circle)
 
 function nextturn(){
    var circle =document.createElementNS(namespace,"circle")
-   circle.setAttribute("cx",50 )
-    circle.setAttribute("cy", 50 )
+   circle.setAttribute("cx",255)
+    circle.setAttribute("cy", 55 )
      circle.setAttribute("r",45 )
+
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+
+}
+
+function player1(){
+   var circle =document.createElementNS(namespace,"circle")
+   circle.setAttribute("cx",155)
+    circle.setAttribute("cy",55)
+     circle.setAttribute("r",45)
+
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+
+}
+
+function player2(){
+   var circle =document.createElementNS(namespace,"circle")
+   circle.setAttribute("cx",55)
+    circle.setAttribute("cy", 155)
+     circle.setAttribute("r",45)
+
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+
+}
+
+function player3(){
+   var circle =document.createElementNS(namespace,"circle")
+   circle.setAttribute("cx",155)
+    circle.setAttribute("cy",155 )
+     circle.setAttribute("r", 45)
+
+var canvas = document.getElementById("game-board")
+canvas.appendChild(circle)
+
+}
+
+function player4(){
+   var circle =document.createElementNS(namespace,"circle")
+   circle.setAttribute("cx",255)
+    circle.setAttribute("cy",255 )
+     circle.setAttribute("r", 45)
 
 var canvas = document.getElementById("game-board")
 canvas.appendChild(circle)
